@@ -2,11 +2,33 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-color: rgb(250, 231, 246);
 }
+.header{
+  background-image: url(img/art3.JPG);
+}
+
 .nav-bar{
  display: flex;
  align-items: center;
  justify-content: space-between;
  width: 100%;
  padding: 10px 30px;
+}
+.nav-bar h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(50, 160, 250);
+  font-weight: 900;
+  font-size: 55px;
+}
+.nav-bar ul li{
+  display: inline-block;
+  padding: 0 18px;
+  list-style: none;
+}
+
+.nav-bar ul li a{
+  text-decoration: none;
+  font-size: 20px;
+
 }
