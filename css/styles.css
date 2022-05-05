@@ -4,9 +4,6 @@
     box-sizing: border-box;
     background-color: rgb(250, 231, 246);
 }
-.header{
-  background-image: url(img/art3.JPG);
-}
 
 .nav-bar{
  display: flex;
@@ -28,7 +25,12 @@
 }
 
 .nav-bar ul li a{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-decoration: none;
   font-size: 20px;
+  color:rgb(50, 160, 250);
+}
 
+.nav-bar ul li a:hover{
+  color: rgb(252, 166, 166);
 }
