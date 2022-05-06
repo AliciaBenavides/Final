@@ -16,21 +16,66 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: rgb(50, 160, 250);
   font-weight: 900;
-  font-size: 55px;
+  font-size: 50px;
 }
 .nav-bar ul li{
   display: inline-block;
-  padding: 0 18px;
+  padding: 0 25px;
   list-style: none;
 }
 
 .nav-bar ul li a{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 19px;
   color:rgb(50, 160, 250);
 }
 
 .nav-bar ul li a:hover{
   color: rgb(252, 166, 166);
+}
+
+.search-form .form-group {
+  display: flex;
+  justify-content: center;
+  height: 35px;
+  
+}
+
+
+.search-form .form-group .form-control,
+.search-form .form-group .submit{
+  outline: none;
+  border:none;
+  background-color: #fff;
+}
+
+.search-form .form-group .form-control{
+  width: 186px;
+  padding: 0 10px;
+  outline: none;
+  background: transparent;
+  border: 2px solid rgb(252, 166, 166) ;
+  border-right: none;
+  font-size: 19px;
+  color: #fff;
+}
+
+.search-form .form-group .submit{
+  background: rgb(252, 166, 166);
+  padding: 0 10px;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.6 ease;
+  border: 2px solid rgb(252, 166, 166);
+}
+
+.search-form .form-group .submit:hover{
+  background: rgb(238, 203, 218);
+}
+
+.form-group ::placeholder{
+  color: rgb(252, 166, 166);
+  font-size: 18px;
 }
